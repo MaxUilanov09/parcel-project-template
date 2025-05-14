@@ -1,0 +1,27 @@
+.tablet-desktop {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+.header-list {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+.header-button {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+.button-mobbutton {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  gap: 35px;
+  justify-content: space-between;
+}
