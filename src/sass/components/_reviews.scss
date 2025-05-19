@@ -20,7 +20,9 @@
     }
     
     &__description {
+
         &__text {
+            @include font-desc(14px, 1.86, 500);
         }
         
         &__indicator {
