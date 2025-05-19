@@ -1,9 +1,3 @@
-.burger {
-  display: block;
-  @media (min-width: 1200px) {
-    display: none;
-  }
-}
 .burger-menu {
   position: fixed;
   top: 0;
@@ -58,6 +52,6 @@
 }
 .mobile {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
